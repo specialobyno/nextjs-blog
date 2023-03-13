@@ -1,3 +1,8 @@
+import Layout from '../../components/layout'
 export default function Posts() {
-  return <div>Posts Index page</div>
+  return (
+    <Layout>
+      <div>Posts Index page</div>
+    </Layout>
+  )
 }
